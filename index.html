@@ -22,125 +22,196 @@
     </a>
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-iconn"></span>
-      </button>
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-iconn"></span>
+    </button>
 
-      <div class="collapse navbar-collapse navtabs" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Livres</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">A propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="active-book">
-    <div class="container">
-      <div class="active-book-content">
-        <img src="" alt="" id="active-book-img">
-        <div class="active-book-desc">
-          <h2>Titre du livre</h2>
-          <p>Le résumé du livre</p>
-          <a href="">Acheter ce livre</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="books">
-    <div class="container">
-      <h1>Tous les livres</h1>
-      <div class="cards">
-        <div class="card-trip active-book">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Premier livre</h2>
-              <p>Description du premier livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-        <div class="card-trip">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Deuxième livre</h2>
-              <p>Description du Deuxième livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-        <div class="card-trip">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Troisième livre</h2>
-              <p>Description du Troisième livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-        <div class="card-trip">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Quatrième livre</h2>
-              <p>Description du Quatrième livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-        <div class="card-trip">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Cinquième livre</h2>
-              <p>Description du Cinquième livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-        <div class="card-trip">
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
-            <div>
-              <h2>Sixième livre</h2>
-              <p>Description du Sixième livre</p>
-            </div>
-            <h2 class="card-trip-pricing">16 €</h2>
-            <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="about">
-    <div class="container">
-      <h1>A propos</h1>
-      <p>Voici l'auteur</p>
-    </div>
-  </div>
-  <div id="contact">
-    <div class="container">
-      <h1>Contact</h1>
-      <ul class="social">
-        <li><a href="https://www.facebook.com/thierry.teuma"><i class="fab fa-facebook-square"></i></a></li>
-        <li><a href="mailto: tcteuma@gmail.com"><i class="far fa-envelope"></i></a></li>
+    <div class="collapse navbar-collapse navtabs" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Livres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
+</div>
+
+<div id="books-show">
+  <div id="book-1" class="container active-book">
+    <div class="book-content">
+      <img src="images/Le-paradis-affiche-complet.jpg" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 1</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="book-2" class="container">
+    <div class="book-content">
+      <img src="" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 2</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="book-3" class="container">
+    <div class="book-content">
+      <img src="" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 3</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="book-4" class="container">
+    <div class="book-content">
+      <img src="" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 4</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="book-5" class="container">
+    <div class="book-content">
+      <img src="" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 5</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="book-6" class="container">
+    <div class="book-content">
+      <img src="" alt="" class="book-show-img">
+      <div class="book-desc">
+        <h2>Titre du livre 6</h2>
+        <p>Le résumé du livre</p>
+        <div class="book-price">
+          <h3>16 €</h3>
+          <a href="" class="btn btn-flat">Acheter ce livre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="books-list">
+  <div class="container">
+    <h1>Tous les livres</h1>
+    <div class="cards">
+      <div class="card-trip active-book" data-content-active="book-1">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Premier livre</h2>
+            <p>Description du premier livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+      <div class="card-trip" data-content-active="book-2">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Deuxième livre</h2>
+            <p>Description du Deuxième livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+      <div class="card-trip" data-content-active="book-3">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Troisième livre</h2>
+            <p>Description du Troisième livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+      <div class="card-trip" data-content-active="book-4">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Quatrième livre</h2>
+            <p>Description du Quatrième livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+      <div class="card-trip" data-content-active="book-5">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Cinquième livre</h2>
+            <p>Description du Cinquième livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+      <div class="card-trip" data-content-active="book-6">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2>Sixième livre</h2>
+            <p>Description du Sixième livre</p>
+          </div>
+          <h2 class="card-trip-pricing">16 €</h2>
+          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="about">
+  <div class="container">
+    <h1>A propos</h1>
+    <p>Voici l'auteur</p>
+  </div>
+</div>
+<div id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/thierry.teuma"><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href="mailto: tcteuma@gmail.com"><i class="far fa-envelope"></i></a></li>
+    </ul>
+  </div>
+</div>
+<script src="index.js"></script>
 </body>
 
 </html>

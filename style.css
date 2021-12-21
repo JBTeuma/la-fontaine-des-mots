@@ -13,7 +13,7 @@ h1 {
   text-align: center;
 }
 
-#books {
+#books-list {
   background-color: rgba(210, 235, 255, 0.5);
   padding-top: 8px;
 }
@@ -41,23 +41,42 @@ h1 {
   font-size: 32px;
 }
 
-#active-book {
+#books-show {
   padding-top: 148px;
   padding-bottom: 8px;
 }
 
-#active-book>h3 {
-  text-align: center;
+#books-show>.container {
+  display:none;
 }
 
-.active-book-content {
+#books-show>.active-book {
+  display:block;
+}
+
+.book-content {
   display: flex;
   margin-top: 16px;
+  justify-content: space-evenly;
 }
 
-#active-book-img {
-  width: 60%;
-  height: 40px;
+.book-desc {
+  width: 40%;
+}
+
+.book-price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.book-price>.btn {
+  margin-left:16px;
+}
+
+.book-show-img {
+  width: fit-content;
+  height: fit-content;
   background-color: #555555;
   margin-right: 16px;
 }
@@ -84,6 +103,19 @@ h1 {
 }
 
 /* Le wagon UI Kit */
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: rgba(0, 0, 168, 0.8);
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: rgba(0, 0, 168, 1);
+  color: white;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
