@@ -20,14 +20,8 @@
     <a class="navbar-brand" href="#">
       <img src="images/fontaine-des-mots-logo.png" />
     </a>
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-iconn"></span>
-    </button>
-
-    <div class="collapse navbar-collapse navtabs" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
+    <div class="navtabs">
+      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="#">Livres</a>
         </li>
@@ -39,6 +33,15 @@
         </li>
       </ul>
     </div>
+    <div type="button" id="toggleBtn" data-toggle="collapse" data-target="#collapseMenu"
+      aria-expanded="false" aria-controls="collapseMenu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="dropdown-menu dropdown-menu-end collapse" id="collapseMenu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Livres</a>
+      <a class="dropdown-item" href="#about">A propos</a>
+      <a class="dropdown-item" href="#contact">Contact</a>
+    </div>
   </div>
 </div>
 
@@ -47,22 +50,13 @@
     <div class="book-content">
       <img src="images/Le-paradis-affiche-complet.jpg" alt="" class="book-show-img">
       <div class="book-desc">
-        <h2>Titre du livre 1</h2>
-        <p>Logoden biniou degemer mat an penn ar bed Yec’hed, blot ac'hanomp Rosko abardaez blev ostaleri las genou yezh, naetaat
-        gwern c’hartoñs tagañ doujañ lizherenn paeañ. Dra ugnet holen keuz gouere gar penn c’hoari gwengolo, lun purgator
-        sklerijenn kazetenn bed egistoc'h ali c’hoazh c’hann, leue ya derc’hent Montroulez sigaretenn yac’h gouren. Gwinizh
-        pediñ c’hilhog labourat gouiziek Sant-Nouga Kemper lunedoù vandenn kreiz tre gwrierez tour kant, en hon Sant mui
-        Plouared Sant-Maloù stêr Baz feiz moan meskañ. Naer dit ugent amañ huchal diaes eizh huanadiñ kar, ouzhimp outo stouiñ
-        c’hilpenn lerenn kavout rannañ naontek tog, en kartoñs Plougasnou arnev rak kanañ sklerijenn. C’hof soudard echu mont
-        warno asied Gwengamp Lokmikael (an-Traezh) wrierez sizailh gwrierez livet hegarat diskiant, kromm Pornizhan Europa
-        gwinizh bennak chadenn vouezh vrec’h korn Landreger garmiñ. Vihanañ porzh kerc’h ziskouez kriz dirak araok kluchañ
-        lezel, ebet krib nizez c’hig soubañ Kemper dirak pennad aketus, voutailh daou walc’h gwaskañ siwazh beajour dihuniñ.
-        Stêr livet sul araok reiñ siwazh pep Pabu bodañ, houlenn bara hed Pempoull deoc'h us kenetre hervez kouezhañ, krib
-        gounez stouiñ poan krouiñ Plougasnou kalonek. Skalier boutañ bered Arzhon-Rewiz kaoued mat bouton etrezek an, ganet
-        ennañ pod Roazhon here goustad marc’h tach eñ, kuzuliañ loa moereb moger c’hoazh dimeurzh Pempont. Out c’hewz plij
-        Gwened c’houevr pomper dan kouevr sav, iskis mervel porpant skevent stad fur anv galon tavarnour, boutañ pegañ meud
-        marennañ izel kêr fri. Darn maen reolenn blijadur martolod bruched stur hep penn, merenn mignonez Plougasnou hiziv
-        kaeraat diaoul Kerbabu riskl daol, mezher met difenn yenijenn laezh evidoc'h lagad.</p>
+        <h2>Le paradis affiche complet</h2>
+        <p>Face à autant d’injustices, Dieu décide d’agir. Il désigne un professeur universitaire pour rétablir
+        l’ordre sur terre.<br>
+        Cette histoire, nous transport à un rythme soutenu, dans plusieurspays en développant une intrigue
+        autour d’un personnage charismatique.<br>
+        Sous l’impulsion de notre professeur, les grands de ce monde, parviendront-ils à séduire leur
+        créateur.</p>
         <div class="book-price">
           <h3>16 €</h3>
           <a href="" class="btn btn-flat">Acheter ce livre</a>
@@ -74,22 +68,14 @@
     <div class="book-content">
       <img src="" alt="" class="book-show-img">
       <div class="book-desc">
-        <h2>Titre du livre 2</h2>
-        <p>Ifern dezho solier terriñ dihuniñ kegin walc’h pegañ kerc’h, kotoñs kromm gervel kleiz verc’h linenn Sarzhav tagañ stal,
-        gouez nann eor gwenan ha oabl matezh. Dorgenn kenavo leal naon maez biniou zo hi pegañ, bier c’haol daoudroad gwelloc’h
-        ar tad montr danvez kenañ, ampart baradoz stêr padout dale Plouganoù Brasparz. C’haier lien vugale homañ Santez-Seo
-        gwrierez diwar gaer abred armel dougen skol paeañ park, beg lun pleg plijout benn froud arat dirak hir sizailh den. Beaj
-        rev lies petra Roazhon muiañ anzav honnezh egisti, hep merc’hed start genou kavout redek re tad un, d’a skol c’helec’h
-        doujañs skevent distreiñ fest. Levrioù aon disadorn egistoc'h nec’h pesketaer maouez treiñ evezh, erc’h dezhañ kontrol
-        stad hevelep ouzhin mamm echu c’hein, davañjer Roazhon ebet Pask kloc’h c’hoari all. Kant brezhoneg hevelep forzh
-        spontus uhelder zoken Gwikourvest lies skuizhañ c’hreion Roazhon aketus arc’h, sizhun paper toull gounez c’hroaz c’hewz
-        neñv harz santout ouzhpenn c’har. Fentigelloù kerc’h fazi stouiñ gwir saout bank benn taol, abred vignonez unan c’higer
-        diskenn Montroulez teñval honnont digwener, bandenn pa enor me daouzek abardaez o. Heñvel logoden sae tud harp skorn
-        armel pennad lamp, labous skubañ boultrenn seizh boan toullañ mat harzhal ouzh, loen bed lamm dit Roazhon sec’hed Brieg.
-        Rimiañ dir c’hemener c’hann geniterv kreisteiz hervez aotrou lamp, kardeur re koumanant beaj c’hodell Douarnenez
-        c’hwevrer dec’h bale, torchañ wenodenn banniel plijout Bro kerc’hat Remengol. Mil hol hanternoz Kemperle Europa warnomp
-        lizher tabut Pederneg, ivez santout rak dall pleg sachañ kuzhat tregont plijadur, toullañ Santez-Seo marennañ purgator
-        houlenn ler bras.</p>
+        <h2>Leur mariage pour tous</h2>
+        <p>Dans « Le paradis affiche complet », Dieu confie à quelques personnes la mission d’amener
+        l’humanité à plus de partage et d’égalité.<br>
+        Fort de son succès, dans le deuxième opus de la trilogie « Leur mariage pour tous », il décide de
+        confronter le groupe charismatique constitué, à une nouvelle épreuve. Ce livre nous à la suite de nos
+        héros dans des endroits merveilleux, à vive allure.<br>
+        Parviendront-ils à accomplir la volonté de notre créateur avant qu’il ne mette ses menaces à
+        exécution ?</p>
         <div class="book-price">
           <h3>16 €</h3>
           <a href="" class="btn btn-flat">Acheter ce livre</a>
@@ -101,22 +87,22 @@
     <div class="book-content">
       <img src="" alt="" class="book-show-img">
       <div class="book-desc">
-        <h2>Titre du livre 3</h2>
-        <p>Koant nebeut Sarzhav den wirionez kentañ Kemperle c’hreion fraoñval, c’hartoñs daouzek arat hejañ gwer c’hontadenn
-        brodañ dad speredek, lavarout digempenn diwezhat yezh eñ skeud kenderv. Lemm munutenn eured talvoudus kelenner dale
-        laouen birviñ garm, kenañ fiñval din pegen speredekañ laerezh plijet gouiziek lezel, gwer teñval Pornizhan abaoe ivez
-        boutailh petra. Gwelloc’h dorgenn voull speredekañ marv seizhvet Doue bruched houarn, Egineg legumaj biskoazh boull
-        Europa gervel bank kezeg bev, tavañjer war mesk c’houevr c’hwec’hvet leskiñ goañv. C’horn pobl butuniñ ha dek pesketa
-        park, niz saout Plouzane bragoù vilin las bleunioù, kontrol gouez ganit arabat tan kiger, kibellañ buoc’h c’harrez perak
-        eil. Kouevr dezho naetaat pont roll bezh sivi den Pont’n-Abad, reolenn huchal c’hwec’hvet kemmañ armel pegoulz mont
-        ac'hanout gwir, leskiñ harzhal avel esaeañ kouezhañ tri arc’hant. Dihuniñ barrad lous don lezenn siwazh planken mat aon,
-        drezomp c’hav gwiskañ etrezek bodet familh eget c’hleñved dreñv, gomz daoust kement lost izel gontell toenn. Redek rev
-        ne dilun tabut c’houzoug traezh argoat harzoù, baradoz ebet Eusa hennont gwiskamant gwinegr don dianav muioc’h, eno
-        ac'hanomp pont plouz koulskoude tu lerenn. Mab hevelep doujañs dorgenn Gwaien magañ bed froud aes, yalc’h lost werenn
-        reolenn trec’h anal kargañ mignonez genver, evitañ doujañ tregont hep yod vro muioc’h. Liv seiz skrivañ dreist lost
-        brumenn c’hilhog kalonek kezeg, karr vro koumoul c’harrez eoul Plouared gwinegr arabat Mikael, Rosko ganet c'hanon
-        solier neuiñ pri kuit. Respont vezañ kempenn pesketa kroc’hen bloavezh hevelep voger pell, farsus wech sec’hed tann Sant
-        mirout lur hanternoz holl, redek dra arvar vuoc’h e merc’h mamm.</p>
+        <h2>Etre humain sans frontières</h2>
+        <p>Dans « Le paradis affiche complet » et « Leur mariage pour tous », nous avons assisté à la
+        mobilisation d’un groupe d’amis ayant réussi à insuffler plus d’égalité et moins de racisme sur terre.
+        Contraignant les grands dirigeants de ce monde à modifier leurs agissements pour contenter les
+        souhaits de leur créateur, les hommes ont évités des situations désastreuses. <br>
+        Dans ce troisième opus, le tout puissant formule d’autres exigences et provoque d’autres vents de
+        panique. Nos héros parviendront-ils à organiser le nécessaire pour calmer les esprits et sortir
+        l’humanité d’une catastrophe planétaire?
+        <br><br>
+        Sa jeunesse passée dans l’Amour et la Joie se différencie avec la vie moderne qu’il trouve
+        souvent plein de contrastes. Prenant le temps d’observer ce monde, il est fier d’avoir
+        transporté ses lecteurs dans une vision différente de l’existence dans ses deux premiers
+        romans.<br>
+        A 56 ans de nouvelles idées le portent. Il décide de les partager dans « Etre humain sans
+        frontière ». Ce troisième ouvrage conclue son approche sur les thèmes qui lui sont les plus
+        chers, l’Egalité, le Racisme et la Solidarité entre les hommes et les espèces.</p>
         <div class="book-price">
           <h3>16 €</h3>
           <a href="" class="btn btn-flat">Acheter ce livre</a>
@@ -128,7 +114,7 @@
     <div class="book-content">
       <img src="" alt="" class="book-show-img">
       <div class="book-desc">
-        <h2>Titre du livre 4</h2>
+        <h2>Je me souviens... </h2>
         <p>Logoden biniou degemer mat an penn ar bed Yec’hed, blot ac'hanomp Rosko abardaez blev ostaleri las genou yezh,
           naetaat
           gwern c’hartoñs tagañ doujañ lizherenn paeañ. Dra ugnet holen keuz gouere gar penn c’hoari gwengolo, lun purgator
@@ -152,70 +138,6 @@
       </div>
     </div>
   </div>
-  <div id="book-5" class="container">
-    <div class="book-content">
-      <img src="" alt="" class="book-show-img">
-      <div class="book-desc">
-        <h2>Titre du livre 5</h2>
-        <p>Ifern dezho solier terriñ dihuniñ kegin walc’h pegañ kerc’h, kotoñs kromm gervel kleiz verc’h linenn Sarzhav tagañ
-          stal,
-          gouez nann eor gwenan ha oabl matezh. Dorgenn kenavo leal naon maez biniou zo hi pegañ, bier c’haol daoudroad
-          gwelloc’h
-          ar tad montr danvez kenañ, ampart baradoz stêr padout dale Plouganoù Brasparz. C’haier lien vugale homañ Santez-Seo
-          gwrierez diwar gaer abred armel dougen skol paeañ park, beg lun pleg plijout benn froud arat dirak hir sizailh den.
-          Beaj
-          rev lies petra Roazhon muiañ anzav honnezh egisti, hep merc’hed start genou kavout redek re tad un, d’a skol c’helec’h
-          doujañs skevent distreiñ fest. Levrioù aon disadorn egistoc'h nec’h pesketaer maouez treiñ evezh, erc’h dezhañ kontrol
-          stad hevelep ouzhin mamm echu c’hein, davañjer Roazhon ebet Pask kloc’h c’hoari all. Kant brezhoneg hevelep forzh
-          spontus uhelder zoken Gwikourvest lies skuizhañ c’hreion Roazhon aketus arc’h, sizhun paper toull gounez c’hroaz
-          c’hewz
-          neñv harz santout ouzhpenn c’har. Fentigelloù kerc’h fazi stouiñ gwir saout bank benn taol, abred vignonez unan
-          c’higer
-          diskenn Montroulez teñval honnont digwener, bandenn pa enor me daouzek abardaez o. Heñvel logoden sae tud harp skorn
-          armel pennad lamp, labous skubañ boultrenn seizh boan toullañ mat harzhal ouzh, loen bed lamm dit Roazhon sec’hed
-          Brieg.
-          Rimiañ dir c’hemener c’hann geniterv kreisteiz hervez aotrou lamp, kardeur re koumanant beaj c’hodell Douarnenez
-          c’hwevrer dec’h bale, torchañ wenodenn banniel plijout Bro kerc’hat Remengol. Mil hol hanternoz Kemperle Europa
-          warnomp
-          lizher tabut Pederneg, ivez santout rak dall pleg sachañ kuzhat tregont plijadur, toullañ Santez-Seo marennañ purgator
-          houlenn ler bras.</p>
-        <div class="book-price">
-          <h3>16 €</h3>
-          <a href="" class="btn btn-flat">Acheter ce livre</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="book-6" class="container">
-    <div class="book-content">
-      <img src="" alt="" class="book-show-img">
-      <div class="book-desc">
-        <h2>Titre du livre 6</h2>
-        <p>Koant nebeut Sarzhav den wirionez kentañ Kemperle c’hreion fraoñval, c’hartoñs daouzek arat hejañ gwer c’hontadenn
-          brodañ dad speredek, lavarout digempenn diwezhat yezh eñ skeud kenderv. Lemm munutenn eured talvoudus kelenner dale
-          laouen birviñ garm, kenañ fiñval din pegen speredekañ laerezh plijet gouiziek lezel, gwer teñval Pornizhan abaoe ivez
-          boutailh petra. Gwelloc’h dorgenn voull speredekañ marv seizhvet Doue bruched houarn, Egineg legumaj biskoazh boull
-          Europa gervel bank kezeg bev, tavañjer war mesk c’houevr c’hwec’hvet leskiñ goañv. C’horn pobl butuniñ ha dek pesketa
-          park, niz saout Plouzane bragoù vilin las bleunioù, kontrol gouez ganit arabat tan kiger, kibellañ buoc’h c’harrez
-          perak
-          eil. Kouevr dezho naetaat pont roll bezh sivi den Pont’n-Abad, reolenn huchal c’hwec’hvet kemmañ armel pegoulz mont
-          ac'hanout gwir, leskiñ harzhal avel esaeañ kouezhañ tri arc’hant. Dihuniñ barrad lous don lezenn siwazh planken mat
-          aon,
-          drezomp c’hav gwiskañ etrezek bodet familh eget c’hleñved dreñv, gomz daoust kement lost izel gontell toenn. Redek rev
-          ne dilun tabut c’houzoug traezh argoat harzoù, baradoz ebet Eusa hennont gwiskamant gwinegr don dianav muioc’h, eno
-          ac'hanomp pont plouz koulskoude tu lerenn. Mab hevelep doujañs dorgenn Gwaien magañ bed froud aes, yalc’h lost werenn
-          reolenn trec’h anal kargañ mignonez genver, evitañ doujañ tregont hep yod vro muioc’h. Liv seiz skrivañ dreist lost
-          brumenn c’hilhog kalonek kezeg, karr vro koumoul c’harrez eoul Plouared gwinegr arabat Mikael, Rosko ganet c'hanon
-          solier neuiñ pri kuit. Respont vezañ kempenn pesketa kroc’hen bloavezh hevelep voger pell, farsus wech sec’hed tann
-          Sant
-          mirout lur hanternoz holl, redek dra arvar vuoc’h e merc’h mamm.</p>
-        <div class="book-price">
-          <h3>16 €</h3>
-          <a href="" class="btn btn-flat">Acheter ce livre</a>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <div id="books-list">
@@ -226,7 +148,7 @@
         <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
         <div class="card-trip-infos">
           <div>
-            <h2>Premier livre</h2>
+            <h2>Le paradis affiche complet</h2>
             <p>Thierry Teuma</p>
           </div>
           <h2 class="card-trip-pricing">16 €</h2>
@@ -237,7 +159,7 @@
         <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
         <div class="card-trip-infos">
           <div>
-            <h2>Deuxième livre</h2>
+            <h2>Leur mariage pour tous</h2>
             <p>Thierry Teuma</p>
           </div>
           <h2 class="card-trip-pricing">16 €</h2>
@@ -248,7 +170,7 @@
         <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
         <div class="card-trip-infos">
           <div>
-            <h2>Troisième livre</h2>
+            <h2>Etre humain sans frontière</h2>
             <p>Thierry Teuma</p>
           </div>
           <h2 class="card-trip-pricing">16 €</h2>
@@ -259,29 +181,7 @@
         <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
         <div class="card-trip-infos">
           <div>
-            <h2>Quatrième livre</h2>
-            <p>Thierry Teuma</p>
-          </div>
-          <h2 class="card-trip-pricing">16 €</h2>
-          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-        </div>
-      </div>
-      <div class="card-trip" data-content-active="book-5">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-        <div class="card-trip-infos">
-          <div>
-            <h2>Cinquième livre</h2>
-            <p>Thierry Teuma</p>
-          </div>
-          <h2 class="card-trip-pricing">16 €</h2>
-          <img src="https://kitt.lewagon.com/placeholder/users/krokrob" class="card-trip-user avatar-bordered" />
-        </div>
-      </div>
-      <div class="card-trip" data-content-active="book-6">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-        <div class="card-trip-infos">
-          <div>
-            <h2>Sixième livre</h2>
+            <h2>Je me souviens...</h2>
             <p>Thierry Teuma</p>
           </div>
           <h2 class="card-trip-pricing">16 €</h2>
@@ -294,25 +194,59 @@
 <div id="about">
   <div class="container">
     <h1>A propos</h1>
-    <p>Logoden biniou degemer mat an penn ar bed kreñv, rumm buan garm sizailh vilin c’helien. Dreuz c’hroaz c’houmanant
-    c’houlz lazhañ degemer naer evidomp c’hwec’h, arvor dad merenn padout trec’h kegin. Vantell goustad evañ don se Eusa,
-    dindan ruz Brest sul Tregastell, Rosporden egiston evidomp ler. Bleun un kezeg kichen disadorn tavarnour sankañ geot
-    warno, dremm kromm c’hwezek purgator pe gador. Sec’hañ c’horn aotrou Sant leur kreñv poazh arnev gouriz, boutailh matezh
-    davañjer aketus santout doñv. Kontadenn Pornizhan Mur patatez egile redek, reas Sant-Tegoneg wec’h mab kalz, mirout
-    zoken mezheven pod. Yenijenn linenn eo se bouzar gallout stivell Bro mall, kregiñ pesk amañ diwezh houarn mestr. Unnek
-    pep puñs naontek graet spont azezañ merc’her diwezhañ, huanadiñ veur naet argoat noz us. Spont logod ahont arat daou
-    Plelann-Veur skrivañ levrioù koulz, gwiskañ vazh vandenn rumm gwrierez saveteiñ. Lagad oan pluenn boutailh vatezh
-    gwrierez pepr oaled arvor, arrebeuri Tregastell nav bloaz kuit yalc’h.
-    <br>
-    C’hastell c’higer ne armel kontañ gwazh siminal lamm Abbarez, sac’h raok kiger douar pevarzek digarez. Bodañ Mor c’hraou
-    onest baner kelc’hiek eil diwar mel, eured lur kuzh vuzell Mederieg peroked. Ouzhin bank douar pevar kontadenn tamm,
-    anal Sant-Tegoneg ac'hanomp preñv reizh, nec’h bemdez dimeurzh kar. Roazhon dezho c’hreisteiz naer plijet diwall gwinizh
-    devezh mae, Mur bragoù dougen trubard pegañ gwinegr. Burzhud ostaleri outo diwezhat Arzhon-Rewiz stur, al da beleg dreñv
-    c’hoar, gwerenn iskis marennañ noazh. Gouzoug bed ziskouez menoz aod lezenn adarre Plouezoc’h kaozeadenn, c’hroaz
-    bleunioù oas c’harr c’helien gouelañ. Sistr gouren levr tasenn kontadenn kilañ, ganti gwechall rodell tachenn baradoz,
-    Doue truez tog stlakañ. Barzh liv gervel uhel prad gwriat kilpenn gant he, outañ formaj triwec’h mab reiñ tro. Gouzañv
-    drezañ mil pemp en peurvuiañ Sant-Nouga speredek enep, Plelann-Veur c’houzoug Sant-Tegoneg nec’hin beleg ouzhimp.
-    Gwalenn tog digor unan Doue pred peogwir moan ennon, niver warc’hoazh er ar kousket keniterv.
+    <p>C’est à 18 ans que celle qui deviendra sa femme, lui fait découvrir la
+    Creuse. Après y avoir passés de nombreuses vacances, ils décident d’y
+    acheter une résidence secondaire. Comme il l’écrit dans sa poésie
+    « Plusieurs Campagnes », c’est dans ce département qu’il retrouve toutes
+    les joies des balades de sa jeunesse, alliant les plaines de Beauce, la forêt
+    de Sologne et les paysages vallonné de son Sud-Ouest natal. Pour lui il
+    finira ses jours dans ce qu’il appelle « le plus beau village au monde ».
+    Ce fils de pied-noir est né il y a 57 ans dans le Lot et Garonne. Malgré de
+    grandes difficultés financières dues au rapatriement d’Algérie, il grandit
+    dans un environnement familial stable et aimant. Son goût pour la
+    littérature ne cesse de s’accroître au fil des années. Comme pour de
+    nombreuses personnes, sa carrière professionnelle envahit tout son
+    espace, lui laissant ainsi peu de temps pour ses passions.
+    En 2013, après un infarctus l’obligeant à mettre un terme à sa carrière
+    professionnelle, il profite de ce moment de convalescence pour enfin
+    réaliser son rêve : « ECRIRE ». Après de long mois de travail, ses deux fils
+    et sa femme le persuadent de faire publier son premier roman « LE
+    PARADIS AFFICHE COMPLET » primé au festival LIVRE O CŒUR. L’accueil
+    des lecteurs l’encourage à continuer sur ce chemin. Il écrit alors un recueil
+    de poésies « JE ME SOUVIENS… ». Puis, lance un nouveau roman « LEUR
+    MARIAGE POUR TOUS » qui formera le deuxième volet d’une trilogie
+    s’achevant par «ETRE HUMAIN SANS FRONTIERE ».
+    Heureux de cette nouvelle vie, qui lui a permis d’effectuer de
+    merveilleuses rencontres, il s’attache à nous emporter dans de nouvelles
+    aventures très prochainement<br>
+    A ce jour, il nous gratifie de 3 romans, et d’un recueil de poésies.
+    <br><br>
+    1 "Le paradis affiche complet"<br>
+    Ou il imagine que Dieu se met en colère et décide de fermer les portes du
+    Paradis.
+    il mandate une famille sur terre pour contacter les responsables des trois
+    plus grandes religions au monde pour les obliger à améliorer leurs
+    services vis à vis de leurs disciples, sinon il ne réouvre pas les portes du
+    paradis avec les conséquences financière pour les trois églises.
+    <br><br>
+    2 "Leur mariage pour tous"<br>
+    Dieu est toujours en grève, il donne une nouvelle mission. Cette fois -ci il
+    exige à ce que le Roi du Maroc marie sa fille avec le fils du premier
+    ministre Israélien sinon il coupe l'eau sur terre avec les conséquences
+    vitales pour l'homme.
+    Dans ces deux ouvrages, il traite des sujets sérieux "justice, égalité et
+    racisme" avec beaucoup d'humour.
+    Il dit s’être amusé à les écrire et à priori le lecteur rie lui aussi.
+    <br><br>
+    3 "ETRE HUMAIN SANS FRONTIERE"<br>
+    Dans cette dernière énigme Dieu est toujours furieux de voir le monde
+    agir avec des méthodes injustes. il crée une nouvelle obligation. Cette fois
+    -ci il faut que les grands de ce monde ouvrent financièrement et
+    physiquement leurs frontières. En cas de refus il les pétrifie.
+    <br><br>
+    4 « Je me souviens…. » Aux éditions « au fil des mots »<br>
+    Il retrace dans un style harmonieux, des moments passés avec la nature,
+    les amis, la famille, ses rapports avec la mort, la maladie et la vie.
     </p>
   </div>
 </div>

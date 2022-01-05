@@ -23,3 +23,17 @@ cards.forEach((card) => {
     window.scrollTo(0, 0);
   });
 });
+
+const menuBtn = document.getElementById("toggleBtn")
+const menu = document.getElementById("collapseMenu")
+const menuItems = document.querySelectorAll(".dropdown-item")
+
+menuBtn.addEventListener("click", (event) => {
+  menu.classList.toggle("show")
+});
+
+menuItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    menu.classList.toggle("show")
+  });
+});
